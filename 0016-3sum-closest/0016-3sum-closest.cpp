@@ -19,9 +19,7 @@ public:
                 }
                 
                 if(s==target){
-                    return closest;
-                    left++;
-                    right--;
+                    return s;
                  
                 }
                 else if(s>target){
