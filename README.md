@@ -420,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/developertutuorials/DSA/tree/master/0176-second-highest-salary) |
 | [0180-consecutive-numbers](https://github.com/developertutuorials/DSA/tree/master/0180-consecutive-numbers) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
