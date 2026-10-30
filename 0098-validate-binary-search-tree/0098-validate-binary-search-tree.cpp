@@ -11,29 +11,26 @@
  */
 class Solution {
 public:
-    bool ans=true;
-    TreeNode* prev = NULL;
+    
+    bool ans = true;
+    TreeNode* prev =NULL;
     void fun(TreeNode* node){
-        if(node==NULL){
-            return;
-        }
+        if(node==NULL)return;
         fun(node->left);
         if(prev==NULL){
             prev=node;
         }
         else{
-            if(prev->val>=node->val){
+            if(prev->val >= node->val){
                 ans=false;
             }
-            prev=node;
+            prev =node;
         }
         fun(node->right);
-        
     }
-
     bool isValidBST(TreeNode* root) {
-        fun(root);
-        return ans;
+       fun(root);
+       return ans;
 
     }
 };
